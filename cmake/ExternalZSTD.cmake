@@ -3,7 +3,8 @@
 
 FetchContent_Declare(
     zstd
-    GIT_REPOSITORY https://github.com/facebook/zstd.git
+    #GIT_REPOSITORY https://github.com/facebook/zstd.git
+    GIT_REPOSITORY https://gitee.com/cs-beegfs/zstd.git 
     GIT_TAG        b706286adbba780006a47ef92df0ad7a785666b6 # 1.4.5
 )
 FetchContent_GetProperties(zstd)
